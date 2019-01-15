@@ -8,22 +8,11 @@ public class Photos {
     private String earth_date;
     private Rover rover;
 
-    public Photos(String img_src, String earth_date){
-        this.img_src=img_src;
-        this.earth_date=earth_date;
-    }
+//    public Photos(String img_src, String earth_date){
+//        this.img_src=img_src;
+//        this.earth_date=earth_date;
+//    }
 
-    public int getId() {
-        return id;
-    }
-
-    public int getSol() {
-        return sol;
-    }
-
-    public MyCamera getCamera() {
-        return camera;
-    }
 
     public String getImg_src() {
         return img_src;
@@ -33,7 +22,11 @@ public class Photos {
         return earth_date;
     }
 
-    public Rover getRover() {
-        return rover;
+    public void setImg_src(String img_src){
+        this.img_src=img_src;
+    }
+
+    public void setEarth_date(String earth_date){
+        this.earth_date=earth_date;
     }
 }

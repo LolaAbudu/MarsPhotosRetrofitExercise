@@ -11,8 +11,8 @@ public class RetrofitSingleton {
             return myOneInstance;
         }
         myOneInstance = new Retrofit.Builder()
-                .baseUrl("https://api.nasa.gov/")
                 .addConverterFactory(GsonConverterFactory.create())
+                .baseUrl("https://api.nasa.gov/")
                 .build();
         return myOneInstance;
     }

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MarsPhotosRetrofitExercise</string>
+    <string name="photo_itemview_earthDate_textView_hint">Hello World Again!</string>
+    <string name="photo_itemview_imageView_imgSrc_contentDescription">Mars Images</string>
 </resources>
